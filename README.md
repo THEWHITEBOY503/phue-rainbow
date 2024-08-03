@@ -5,10 +5,12 @@ Introduce a cascade of colors to your room via [phue](https://github.com/studioi
 Clone the repository:
 ```bash
 git clone https://github.com/THEWHITEBOY503/phue-rainbow.git
-cd phue-rainbot
+cd phue-rainbow
 ```
 Install dependencies:
 `pip install phue logging`
+OR
+`pip install requirements.txt`
 
 
 Refer to the example script in the phue repository for more info.
@@ -26,5 +28,11 @@ Refer to the example script in the phue repository for more info.
 ## ...desired file? Which do I choose?
 You see, there's a couple different effects I've laid out. 
 
+- `colors.py` - Cycles through the rainbow in order. Ya know, ROYGBIV! Or something similar to it. 
+- `rainbow.py` - Generates a random color based on RGB value and sends it to the group of lights.
+- `rainbowXY.py` - Generates a random color based on XY colorspace value and sends it to the group of lights.
+- `flash.py` - Generates a new random color for each light in the group of lights using the RGB algorithm.
+- `flashXY.py` - Generates a new random color for each light in the group of lights using the XY algorithm. 
+
 ## Sponsor
-This is free, open source software I wrote in my spare time when I was bored and sick one day, and I'm very happy to offer a free solution to a problem Phillips introduced after the fact. If you find this program useful to you that you feel like donating, you should consider sponsoring me on GitHub by clicking that neat little button on the sidebar! Alternatively, I ask that you consider sponsoring one of the developers of phue instead! While I can't find a way to donate directly to the phue team, there are several developers on the team who probably have sponsorships open. 
+This is free, open source software I wrote in my spare time when I was bored and sick one day, and I'm very happy to offer a free solution to a problem Phillips introduced after the fact. If you find this program useful enough to you that you feel like donating, you should consider sponsoring me on GitHub by clicking that neat little button on the sidebar! Alternatively, I ask that you consider sponsoring one of the developers of phue instead! While I can't find a way to donate directly to the phue team, there are several developers on the team who probably have sponsorships open. 
