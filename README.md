@@ -39,7 +39,7 @@ Because of whatever this is.
 ![XY color space](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/CIE1931xy_CIERGB.svg/1280px-CIE1931xy_CIERGB.svg.png)
 This is XY color space, and for reasons unknown to me, phue expects XY inputs. So, one algorithm generates a random decimal between 0 and 1 for both the X and Y axis. (This could probably use some fine tuning, I have no idea how color spaces work.)
 
-On the other hand, RGB color is a bit more manageable, and with it we get 16,777,216 colors! So, those scripts generate a number between 0 and 255 three time, one for red, green, and blue. Then, a function converts it to the XY color space with some math, and sends it to the light.
+On the other hand, RGB color is a bit more manageable, and with it we get 16,777,216 colors! So, those scripts generate a number between 0 and 255 three times, one for red, green, and blue. Then, a function converts it to the XY color space with some math, and sends it to the light.
 
 ## Sponsor
 This is free, open source software I wrote in my spare time when I was bored and sick one day, and I'm very happy to offer a free solution to a problem Phillips introduced after the fact. If you find this program useful enough to you that you feel like donating, you should consider sponsoring me on GitHub by clicking that neat little button on the sidebar! Alternatively, I ask that you consider sponsoring one of the developers of phue instead! While I can't find a way to donate directly to the phue team, there are several developers on the team who probably have sponsorships open. 
